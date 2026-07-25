@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Casa Ulika</title>
+  <meta name="description" content="Photos of Casa Ulika's rooms, grounds, and terrace dining — a restored olive mill on Croatia's Dalmatian coast.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="index.html" class="wordmark">Casa <span>Ulika</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="key-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="5"/><path d="M11.5 11.5L21 21M17 17l3-3M14 14l3-3"/></svg>
+          Gallery
+        </span>
+        <h1>Around the mill</h1>
+        <p class="lede">A closer look at the rooms, grounds, and terrace. Select a photo to view it full-size.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="gallery-filter" role="group" aria-label="Filter gallery by category">
+          <button class="filter-btn" data-category="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-category="rooms" aria-pressed="false">Rooms</button>
+          <button class="filter-btn" data-category="grounds" aria-pressed="false">Grounds</button>
+          <button class="filter-btn" data-category="dining" aria-pressed="false">Dining</button>
+        </div>
+
+        <div class="gallery-grid">
+          <figure>
+            <button type="button" data-category="rooms" data-full="images/" data-caption="The Olive Room, garden-facing" data-alt="Interior of the Olive Room with a double bed and stone walls">
+              <img src="images/bergen-harbour-standard-double-retusjert-1-1024x683-1.webp" alt="Thumbnail of the Olive Room interior" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="rooms" data-full="https://picsum.photos/seed/casaulika-g-room2/1200/900" data-caption="Sea View Suite bathroom" data-alt="Stone bathtub facing a large window with sea view">
+              <img src="images/Bergen-Harbour-breakfast-area-3.webp" alt="Thumbnail of the Sea View Suite stone bathtub" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="rooms" data-full="https://picsum.photos/seed/casaulika-g-room3/1200/900" data-caption="The Stone Loft mezzanine" data-alt="Mezzanine sleeping area under exposed timber beams">
+              <img src="images/bergen-harbour-hotel.jpg" alt="Thumbnail of the Stone Loft mezzanine level" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="rooms" data-full="https://picsum.photos/seed/casaulika-g-room4/1200/900" data-caption="The Mill Suite sitting room" data-alt="Sitting room built around the original olive press mechanism">
+              <img src="images/Bergen-Harbour-breakfast-area-3.webp" alt="Thumbnail of the Mill Suite sitting room" loading="lazy">
+            </button>
+          </figure>
+
+          <figure>
+            <button type="button" data-category="grounds" data-full="https://picsum.photos/seed/casaulika-g-grove1/1200/900" data-caption="The olive grove in early morning light" data-alt="Rows of olive trees in the hotel grounds at sunrise">
+              <img src="https://picsum.photos/seed/casaulika-g-grove1/500/380" alt="Thumbnail of the olive grove at sunrise" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="grounds" data-full="https://picsum.photos/seed/casaulika-g-courtyard/1200/900" data-caption="The courtyard and original stone press" data-alt="Hotel courtyard with the preserved original olive press">
+              <img src="https://picsum.photos/seed/casaulika-g-courtyard/500/380" alt="Thumbnail of the courtyard and stone press" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="grounds" data-full="https://picsum.photos/seed/casaulika-g-pool/1200/900" data-caption="The plunge pool facing the sea" data-alt="Small stone-edged plunge pool overlooking the Adriatic">
+              <img src="https://picsum.photos/seed/casaulika-g-pool/500/380" alt="Thumbnail of the plunge pool" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="grounds" data-full="https://picsum.photos/seed/casaulika-g-facade/1200/900" data-caption="The mill facade at dusk" data-alt="Exterior stone facade of Casa Ulika at dusk">
+              <img src="https://picsum.photos/seed/casaulika-g-facade/500/380" alt="Thumbnail of the mill facade at dusk" loading="lazy">
+            </button>
+          </figure>
+
+          <figure>
+            <button type="button" data-category="dining" data-full="https://picsum.photos/seed/casaulika-g-breakfast/1200/900" data-caption="Breakfast on the terrace" data-alt="Table set with bread, olive oil, and coffee on the sea-facing terrace">
+              <img src="https://picsum.photos/seed/casaulika-g-breakfast/500/380" alt="Thumbnail of breakfast set on the terrace" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="dining" data-full="https://picsum.photos/seed/casaulika-g-oil/1200/900" data-caption="This year's olive oil pressing" data-alt="Bottles of fresh-pressed olive oil from the hotel grove">
+              <img src="https://picsum.photos/seed/casaulika-g-oil/500/380" alt="Thumbnail of fresh-pressed olive oil bottles" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="dining" data-full="https://picsum.photos/seed/casaulika-g-dinner/1200/900" data-caption="Evening dining under the vines" data-alt="Table set for dinner under a vine-covered pergola">
+              <img src="https://picsum.photos/seed/casaulika-g-dinner/500/380" alt="Thumbnail of the evening dining pergola" loading="lazy">
+            </button>
+          </figure>
+          <figure>
+            <button type="button" data-category="dining" data-full="https://picsum.photos/seed/casaulika-g-bread/1200/900" data-caption="Bread from the village baker" data-alt="Fresh bread loaves delivered each morning from the village baker">
+              <img src="https://picsum.photos/seed/casaulika-g-bread/500/380" alt="Thumbnail of fresh bread loaves" loading="lazy">
+            </button>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button type="button" class="lightbox-close" aria-label="Close image viewer">&times;</button>
+    <figure>
+      <img src="" alt="">
+      <figcaption></figcaption>
+      <div class="lightbox-controls">
+        <button type="button" class="lightbox-nav lightbox-prev" aria-label="Previous image">&larr;</button>
+        <button type="button" class="lightbox-nav lightbox-next" aria-label="Next image">&rarr;</button>
+      </div>
+    </figure>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="wordmark">Casa <span>Ulika</span></a>
+          <p style="margin-top:1rem; opacity:0.85; max-width:32ch;">A restored 1887 olive mill on the Dalmatian coast — twelve rooms, a working olive grove, and the sea at the door.</p>
+        </div>
+        <div>
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="rooms.html">Rooms &amp; Suites</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>Ulica Maslina 12, Vrisnik, Croatia</li>
+            <li><a href="mailto:stay@casaulika.example">stay@casaulika.example</a></li>
+            <li><a href="tel:+385981234567">+385 98 123 4567</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Casa Ulika. All rights reserved.</p>
+        <p>Built for ICT726 &middot; Static prototype, no data collected.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
